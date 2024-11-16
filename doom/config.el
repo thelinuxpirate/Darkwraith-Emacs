@@ -40,9 +40,12 @@
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
-(setq org-directory "~/System/Notes/")
+(setq org-directory "~/System/Org/")
+(setq org-noter-notes-search-path '("~/System/Org/Notes/"))
 
-
+;; Hooks
+(add-hook 'emacs-startup-hook #'elcord-mode)
+(add-hook 'emacs-startup-hook #'rainbow-mode)
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.
 ;;
