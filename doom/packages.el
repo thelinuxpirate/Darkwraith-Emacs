@@ -51,3 +51,4 @@
 
 (package! elcord)
 (package! rainbow-mode)
+(package! org-present)
