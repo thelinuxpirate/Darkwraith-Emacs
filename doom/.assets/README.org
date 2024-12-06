@@ -1,0 +1,6 @@
+#+title: data
+If you want to use an image for the splash-screen
+then the dimensions should be:
+
+
+- 427x400
